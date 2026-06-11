@@ -5,4 +5,9 @@
 #ifndef AVENTURAS_CHARACTER_H
 #define AVENTURAS_CHARACTER_H
 
+
+class Character {
+};
+
+
 #endif //AVENTURAS_CHARACTER_H

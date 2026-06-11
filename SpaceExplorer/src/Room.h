@@ -5,4 +5,9 @@
 #ifndef AVENTURAS_ROOM_H
 #define AVENTURAS_ROOM_H
 
+
+class Room {
+};
+
+
 #endif //AVENTURAS_ROOM_H

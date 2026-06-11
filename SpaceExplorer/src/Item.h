@@ -5,4 +5,9 @@
 #ifndef AVENTURAS_ITEM_H
 #define AVENTURAS_ITEM_H
 
+
+class Item {
+};
+
+
 #endif //AVENTURAS_ITEM_H
