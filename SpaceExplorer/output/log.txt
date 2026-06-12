@@ -1,0 +1,62 @@
+=== SPACE EXPLORER - SIMULATION LOG ===
+[STEP 001] === Simulation started ===
+[STEP 002] Astronaut Commander Kael wakes up aboard the derelict ship.
+[STEP 003] Entering: [r01] Cryo Chamber - You awaken from stasis. Emergency lights flicker.
+[STEP 004]   Found item: [OXYGEN] Emergency Oxygen Tank (value: 30) -> applied to character
+[STEP 005]   Status: Commander Kael | HP: 100/100 | O2: 100/100 | Items: 1
+[STEP 006]   Found item: [KEY] Cryo Bay Access Card (value: 0) -> added to inventory
+[STEP 007]   Status: Commander Kael | HP: 100/100 | O2: 100/100 | Items: 2
+[STEP 008] Entering: [r02] Cargo Bay - Massive containers float in zero gravity.
+[STEP 009]   Found item: [ARTIFACT] Cargo Manifest Tablet (value: 0) -> added to inventory
+[STEP 010]   Status: Commander Kael | HP: 100/100 | O2: 100/100 | Items: 3
+[STEP 011]   EVENT [ENEMY]: A rogue maintenance drone attacks!
+[STEP 012]   HP effect: -20 -> HP now: 80
+[STEP 013]   Status: Commander Kael | HP: 80/100 | O2: 100/100 | Items: 3
+[STEP 014] Entering: [r06] Crew Quarters - Personal belongings scattered across the floor.
+[STEP 015]   Found item: [MEDKIT] Suit Repair Patch (value: 10) -> applied to character
+[STEP 016]   Status: Commander Kael | HP: 90/100 | O2: 100/100 | Items: 4
+[STEP 017]   EVENT [BONUS]: Intact oxygen reserves behind a panel.
+[STEP 018]   O2 effect: 20 -> O2 now: 100
+[STEP 019]   Status: Commander Kael | HP: 90/100 | O2: 100/100 | Items: 4
+[STEP 020] Entering: [r03] Engineering - Exposed wiring and sparking panels everywhere.
+[STEP 021]   Found item: [WEAPON] Plasma Cutter (value: 0) -> added to inventory
+[STEP 022]   Status: Commander Kael | HP: 90/100 | O2: 100/100 | Items: 5
+[STEP 023]   EVENT [HAZARD]: A cracked pipe hisses toxic gas.
+[STEP 024]   O2 effect: -15 -> O2 now: 85
+[STEP 025]   Status: Commander Kael | HP: 90/100 | O2: 85/100 | Items: 5
+[STEP 026] Entering: [r04] Medical Bay A - sterile room with overturned supply cabinets.
+[STEP 027]   Found item: [MEDKIT] First Aid Kit (value: 25) -> applied to character
+[STEP 028]   Status: Commander Kael | HP: 100/100 | O2: 85/100 | Items: 6
+[STEP 029]   EVENT [BONUS]: Emergency station with medical supplies.
+[STEP 030]   HP effect: 20 -> HP now: 100
+[STEP 031]   O2 effect: 10 -> O2 now: 95
+[STEP 032]   Status: Commander Kael | HP: 100/100 | O2: 95/100 | Items: 6
+[STEP 033] Entering: [r07] Armory - Weapon racks. Most are empty, but not all.
+[STEP 034]   Found item: [WEAPON] Pulse Rifle (value: 0) -> added to inventory
+[STEP 035]   Status: Commander Kael | HP: 100/100 | O2: 95/100 | Items: 7
+[STEP 036]   EVENT [ENEMY]: Security AI turret activates!
+[STEP 037]   [WEAPON BONUS] Damage reduced by weapon in inventory.
+[STEP 038]   HP effect: -7 -> HP now: 93
+[STEP 039]   Status: Commander Kael | HP: 93/100 | O2: 95/100 | Items: 7
+[STEP 040] Entering: [r05] Reactor Core - Intense heat. The reactor hums ominously.
+[STEP 041]   EVENT [ENEMY]: Mutated specimen escaped from containment!
+[STEP 042]   [WEAPON BONUS] Damage reduced by weapon in inventory.
+[STEP 043]   HP effect: -15 -> HP now: 78
+[STEP 044]   Status: Commander Kael | HP: 78/100 | O2: 95/100 | Items: 7
+[STEP 045] Entering: [r09] Airlock Alpha - A damaged airlock. Vacuum seals barely holding.
+[STEP 046]   EVENT [HAZARD]: Micro fracture in the hull. Oxygen venting!
+[STEP 047]   O2 effect: -25 -> O2 now: 70
+[STEP 048]   Status: Commander Kael | HP: 78/100 | O2: 70/100 | Items: 7
+[STEP 049] Entering: [r08] Research Lab - Broken specimens and holographic data fragments.
+[STEP 050]   Found item: [OXYGEN] Oxygen Recycler (value: 40) -> applied to character
+[STEP 051]   Status: Commander Kael | HP: 78/100 | O2: 100/100 | Items: 8
+[STEP 052]   Found item: [ARTIFACT] Ancient Data Core (value: 0) -> added to inventory
+[STEP 053]   Status: Commander Kael | HP: 78/100 | O2: 100/100 | Items: 9
+[STEP 054]   EVENT [BONUS]: Ships medbot still operational.
+[STEP 055]   HP effect: 30 -> HP now: 100
+[STEP 056]   O2 effect: 15 -> O2 now: 100
+[STEP 057]   Status: Commander Kael | HP: 100/100 | O2: 100/100 | Items: 9
+[STEP 058] Entering: [r11] Bridge (EXIT) - The command bridge. Escape pod bay is right here.
+[STEP 059] >> Commander Kael reaches the BRIDGE and activates the escape pod!
+[STEP 060] === Simulation ended ===
+[STEP 061] Commander Kael | HP: 100/100 | O2: 100/100 | Items: 9

@@ -1,0 +1,14 @@
+# Space Explorer - Event definitions
+# Format: ENEMY  <id> <description_underscores> <damage> <roomId>
+# Format: HAZARD <id> <description_underscores> <oxygenDrain> <roomId>
+# Format: BONUS  <id> <description_underscores> <healthGain> <oxygenGain> <roomId>
+
+ENEMY  e01 A_rogue_maintenance_drone_attacks! 20 r02
+HAZARD e02 A_cracked_pipe_hisses_toxic_gas. 15 r03
+ENEMY  e03 Mutated_specimen_escaped_from_containment! 30 r05
+HAZARD e04 Micro_fracture_in_the_hull._Oxygen_venting! 25 r09
+BONUS  e05 Emergency_station_with_medical_supplies. 20 10 r04
+BONUS  e06 Intact_oxygen_reserves_behind_a_panel. 0 20 r06
+ENEMY  e07 Security_AI_turret_activates! 15 r07
+HAZARD e08 Electrical_surge_damages_suit_life_support. 10 r10
+BONUS  e09 Ships_medbot_still_operational. 30 15 r08

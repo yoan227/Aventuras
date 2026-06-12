@@ -1,0 +1,15 @@
+# Space Explorer - Item definitions
+# Format: ITEM <id> <name_with_underscores> <type> <value> <roomId>
+# Types: OXYGEN, KEY, WEAPON, MEDKIT, ARTIFACT
+# value = effect magnitude (HP or O2 points for consumables)
+
+ITEM i01 Emergency_Oxygen_Tank OXYGEN 30 r01
+ITEM i02 Cryo_Bay_Access_Card KEY 0 r01
+ITEM i03 Cargo_Manifest_Tablet ARTIFACT 0 r02
+ITEM i04 Plasma_Cutter WEAPON 0 r03
+ITEM i05 First_Aid_Kit MEDKIT 25 r04
+ITEM i06 Suit_Repair_Patch MEDKIT 10 r06
+ITEM i07 Pulse_Rifle WEAPON 0 r07
+ITEM i08 Oxygen_Recycler OXYGEN 40 r08
+ITEM i09 Ancient_Data_Core ARTIFACT 0 r08
+ITEM i10 Navigation_Override_Key KEY 0 r10

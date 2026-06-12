@@ -1,0 +1,31 @@
+# Space Explorer - Room definitions
+# Format: ROOM <id> <name_with_underscores> <description_with_underscores> [EXIT]
+# Format: CONNECT <id1> <id2>
+# Format: START <id>
+
+ROOM r01 Cryo_Chamber You_awaken_from_stasis._Emergency_lights_flicker.
+ROOM r02 Cargo_Bay Massive_containers_float_in_zero_gravity.
+ROOM r03 Engineering Exposed_wiring_and_sparking_panels_everywhere.
+ROOM r04 Medical_Bay_A sterile_room_with_overturned_supply_cabinets.
+ROOM r05 Reactor_Core Intense_heat._The_reactor_hums_ominously.
+ROOM r06 Crew_Quarters Personal_belongings_scattered_across_the_floor.
+ROOM r07 Armory Weapon_racks._Most_are_empty,_but_not_all.
+ROOM r08 Research_Lab Broken_specimens_and_holographic_data_fragments.
+ROOM r09 Airlock_Alpha A_damaged_airlock._Vacuum_seals_barely_holding.
+ROOM r10 Navigation_Room Star_charts_glow_faintly_on_damaged_screens.
+ROOM r11 Bridge The_command_bridge._Escape_pod_bay_is_right_here. EXIT
+
+CONNECT r01 r02
+CONNECT r01 r06
+CONNECT r02 r03
+CONNECT r02 r04
+CONNECT r03 r05
+CONNECT r04 r06
+CONNECT r05 r08
+CONNECT r06 r07
+CONNECT r07 r09
+CONNECT r08 r10
+CONNECT r09 r11
+CONNECT r10 r11
+
+START r01
